@@ -1,4 +1,74 @@
 @charset "UTF-8";
 body {
     margin: 0;
+	background-color: #eef3eb;
+	font-family: sans-serif;
+}
+/*Les couleurs
+#eef3eb
+#CAD2C5 
+#84A98D 
+#527970
+#354E52
+#2F3D46
+*/
+
+/*les titres*/
+h1 {
+	line-height: 1.25;
+    margin-bottom: 2rem;
+	font-size: 4em;
+    font-weight: 800;
+	font-family: sans-serif;
+	margin-left: 8%;
+}
+
+/*Barre de naviguation / menu ne pas y toucher */
+.menu ul {
+	color: #eef3eb;
+    list-style-type: none;
+    margin: 3%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2F3D46;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+	color: #eef3eb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #354E52;
+}
+
+.active {
+    background-color: #84A98D;
+}
+
+/*Iframe de la candidature*/
+.candidature iframe {
+	border: none;
+	display: block;
+	margin-right: 10%;
+	padding: 1Oem 500em;
+}
+
+
+/*Pied de page*/
+footer {
+	margin: 0;
+	display: block;
+	text-align: center;
+    padding: 14px;
+	color:#eef3eb;
+    background-color: #2F3D46;
 }
