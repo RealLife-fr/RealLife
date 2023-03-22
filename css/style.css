@@ -20,8 +20,42 @@ h1 {
 	font-size: 4em;
     font-weight: 800;
 	font-family: sans-serif;
-	margin-left: 8%;
+	margin-left: 10%;
 }
+
+h2 {
+	line-height: 1.25;
+    margin-bottom: 1rem;
+	font-size: 2.25em;
+    font-weight: 800;
+	font-family: sans-serif;
+	margin-left: 5%;
+}
+
+h3 {
+	line-height: 1.25;
+    margin-bottom: 0.5rem;
+	font-size: 1.5em;
+    font-weight: 800;
+	font-family: sans-serif;
+	margin-left: 7.5%;
+}
+
+/*Paragraphes*/
+p {
+	line-height: 1.25;
+	font-size: 1em;
+	font-family: sans-serif;
+	margin-left: 10%;
+}
+
+br {
+	line-height: 1.25;
+	font-size: 1em;
+	font-family: sans-serif;
+	margin-left: 10%;
+}
+
 
 /*Barre de naviguation / menu ne pas y toucher */
 .menu ul {
@@ -62,13 +96,27 @@ h1 {
 	padding: 1Oem 500em;
 }
 
+/*Image serveur à coté du titre*/
+.image_titre {
+	border: none;
+	display: block;
+	text-align: right;
+	margin: 1%;
+	margin-right: 10em;
+}
 
 /*Pied de page*/
 footer {
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
 	display: block;
 	text-align: center;
     padding: 14px;
 	color:#eef3eb;
     background-color: #2F3D46;
+}
+
+.fpn {
+    margin-top: 4rem;
 }
