@@ -21,6 +21,7 @@ h1 {
     font-weight: 800;
 	font-family: sans-serif;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
     font-weight: 800;
 	font-family: sans-serif;
 	margin-left: 5%;
+	margin-right: 10%;
 }
 
 h3 {
@@ -39,6 +41,7 @@ h3 {
     font-weight: 800;
 	font-family: sans-serif;
 	margin-left: 7.5%;
+	margin-right: 10%;
 }
 
 /*Paragraphes*/
@@ -47,6 +50,7 @@ p {
 	font-size: 1em;
 	font-family: sans-serif;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 br {
@@ -54,6 +58,7 @@ br {
 	font-size: 1em;
 	font-family: sans-serif;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 
